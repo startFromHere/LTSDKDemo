@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTSDKDemo'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'cocoapod 私有库测试'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LTSDKDemo/Classes/**/*'
+  s.source_files = 'LTSDKDemo/Classes/**/*', 'LTSDKDemo/Classes/Controllers/**/*'
   
   # s.resource_bundles = {
   #   'LTSDKDemo' => ['LTSDKDemo/Assets/*.png']
