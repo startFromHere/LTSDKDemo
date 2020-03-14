@@ -7,6 +7,7 @@
 
 #import "LTVC2.h"
 #import <Masonry/Masonry.h>
+#import <LTSubSDKDemo/LTSubSDKDemo.h>
 
 @interface LTVC2 ()
 
@@ -29,6 +30,7 @@
         make.center.mas_equalTo(self.view);
         make.width.mas_equalTo(self.view).offset(-30);
     }];
+    [[LTObject object] printSth];
 }
 
 @end
