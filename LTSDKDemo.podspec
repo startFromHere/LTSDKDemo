@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTSDKDemo'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'cocoapod 私有库测试'
 
 # This description is used to generate tags and improve search results.
