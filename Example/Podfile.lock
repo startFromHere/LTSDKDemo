@@ -30,9 +30,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LTSDKDemo (0.2.3):
+  - LTSDKDemo (0.2.4):
     - AFNetworking (~> 2.3)
+    - LTSubSDKDemo
     - Masonry
+  - LTSubSDKDemo (0.1.0)
   - Masonry (1.1.0)
   - Specta (1.0.7)
 
@@ -44,6 +46,8 @@ DEPENDENCIES:
   - Specta
 
 SPEC REPOS:
+  https://github.com/startFromHere/LTPodSpecs.git:
+    - LTSubSDKDemo
   trunk:
     - AFNetworking
     - Expecta
@@ -61,10 +65,11 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LTSDKDemo: faf15e6b27e9e03f3075fb79e843a66b3bffb225
+  LTSDKDemo: e9758e765977b69f10b31411fe3e2f42118f027d
+  LTSubSDKDemo: 4d948b0b368e2deeff1c4a6ac174002963843a15
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 2695953e901dd1055f97912ce0dfd3d68afeeab4
+PODFILE CHECKSUM: 8b507725dd48a8dd2223a9c6cfa281efdd0cf089
 
 COCOAPODS: 1.8.4

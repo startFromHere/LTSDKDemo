@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "LTSDKDemo.h"
-
-FOUNDATION_EXPORT double LTSDKDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char LTSDKDemoVersionString[];
-

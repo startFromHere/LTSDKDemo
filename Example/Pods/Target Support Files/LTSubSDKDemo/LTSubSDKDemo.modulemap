@@ -1,0 +1,6 @@
+framework module LTSubSDKDemo {
+  umbrella header "LTSubSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

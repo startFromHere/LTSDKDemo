@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "LTSDKDemo.h"
+#import "LTObject.h"
+#import "LTSubSDKDemo.h"
 
-FOUNDATION_EXPORT double LTSDKDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char LTSDKDemoVersionString[];
+FOUNDATION_EXPORT double LTSubSDKDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char LTSubSDKDemoVersionString[];
 

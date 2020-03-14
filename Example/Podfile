@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/startFromHere/LTPodSpecs.git'
+
 platform :ios, '8.0'
 
 target 'LTSDKDemo_Example' do
