@@ -7,6 +7,7 @@
 //
 
 #import "LTViewController.h"
+#import "LTVC1.h"
 
 @interface LTViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.navigationController pushViewController:[LTVC1 new] animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

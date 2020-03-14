@@ -1,0 +1,6 @@
+framework module LTSDKDemo {
+  umbrella header "LTSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

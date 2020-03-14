@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		02B079E57E25AA145DB7B48E /* Pods-LTSDKDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSDKDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-LTSDKDemo_Example/Pods-LTSDKDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1DC367F811FEB8EBD735635E /* Pods_LTSDKDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTSDKDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		568F8BC8F85B5EAFB176BC3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		568F8BC8F85B5EAFB176BC3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LTSDKDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTSDKDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A17DF91C9D4859A99A1BDDB /* Pods-LTSDKDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSDKDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-LTSDKDemo_Tests/Pods-LTSDKDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1B5F7947EFCCD7A85AB6B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1B5F7947EFCCD7A85AB6B0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C602A86ED31D4FDFA92E0B7F /* Pods-LTSDKDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSDKDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-LTSDKDemo_Example/Pods-LTSDKDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CACC00A1922D3D6865E2A14C /* Pods_LTSDKDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTSDKDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D06883C00FF8C09C17941E33 /* LTSDKDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTSDKDemo.podspec; path = ../LTSDKDemo.podspec; sourceTree = "<group>"; };
+		D06883C00FF8C09C17941E33 /* LTSDKDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTSDKDemo.podspec; path = ../LTSDKDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E21303428E4DC1C8C3D9D65A /* Pods-LTSDKDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSDKDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LTSDKDemo_Tests/Pods-LTSDKDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				E21303428E4DC1C8C3D9D65A /* Pods-LTSDKDemo_Tests.debug.xcconfig */,
 				8A17DF91C9D4859A99A1BDDB /* Pods-LTSDKDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +325,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LTSDKDemo_Example/Pods-LTSDKDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/LTSDKDemo/LTSDKDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTSDKDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
