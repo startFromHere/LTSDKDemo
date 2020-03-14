@@ -8,5 +8,7 @@
 #ifndef LTSDKDemo_h
 #define LTSDKDemo_h
 
+#import "LTVC1.h"
+#import "LTVC2.h"
 
 #endif /* LTSDKDemo_h */
