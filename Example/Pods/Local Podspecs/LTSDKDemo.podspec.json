@@ -1,6 +1,6 @@
 {
   "name": "LTSDKDemo",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "cocoapod 私有库测试",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/startFromHere/LTSDKDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/startFromHere/LTSDKDemo.git",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,7 +22,7 @@
     "LTSDKDemo/Classes/**/*",
     "LTSDKDemo/Classes/Controllers/**/*"
   ],
-  "public_header_files": "LTSDKDemo/Classes/LTSDKDemo.h",
+  "public_header_files": "LTSDKDemo/Classes/**/*.h",
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

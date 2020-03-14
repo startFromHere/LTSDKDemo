@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LTVC1.h"
+#import "LTVC2.h"
 #import "LTSDKDemo.h"
 
 FOUNDATION_EXPORT double LTSDKDemoVersionNumber;

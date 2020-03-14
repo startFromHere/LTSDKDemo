@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTSDKDemo'
-  s.version          = '0.2.3'
+  s.version          = '0.2.5'
   s.summary          = 'cocoapod 私有库测试'
 
 # This description is used to generate tags and improve search results.
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'Masonry'
+   s.dependency 'LTSubSDKDemo'
 end

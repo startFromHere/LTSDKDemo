@@ -102,7 +102,6 @@
 		574FD072816FCE8FC2FDBDF9B5F52B59 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC07DB2683CF07DCB9227659C2D6E8C /* MASConstraintMaker.m */; };
 		58ADCCE6F6658EB5FBFA9D85B8B0E1AF /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A31E2700F0A2D1A1E0C7DD4640A9DE0 /* SPTCallSite.m */; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E835CDFC91AEBE5D746F4412F3A2B6 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A71E439DFB358C857DFFDA1ED5B1EEA /* LTVC2.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D51C8706D73757B8D69DA4BE29EDCB /* LTVC2.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 219B0FAF8FB29AEE654F3CCAECDC1DF3 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4FE79C03D4F10F90B92842931F54C5 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5EC60D3F30B0F2C55DD8B6A2747A8A23 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4927C1D6E264B87CCAD7AFEC945181D3 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,6 +134,7 @@
 		80FCB0CBD346E928ACA643825DBFB100 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B54443E5F1F5E13318E6042E2C179555 /* UIAlertView+AFNetworking.m */; };
 		81433C0ACD85C6A38FE6194228840CB1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3701C28918459E91E68D4A7B3D24F /* MASLayoutConstraint.m */; };
 		821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3F191DB69C82C813F0C0C424C9456A /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827BDF0E9E988070E37207AB22AFA99A /* LTVC2.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D51C8706D73757B8D69DA4BE29EDCB /* LTVC2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8479152A46904EEB3F1E1F7BB135A14F /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9C8EE9C0868C699AA10AA3CFFD9AF /* EXPMatchers+FBSnapshotTest.m */; };
 		85612F34E79CC3D1821B1C8F07E75BA6 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 07814CA799C8AE2C1002B0DD8FFDB239 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86CBAEE7C564D0640B39355AC4C6590A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 997D0347D09C58E3184CBA0E9DBDCD25 /* UIRefreshControl+AFNetworking.m */; };
@@ -215,6 +215,7 @@
 		DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 22768BC5E8DADA70369CAA46F1BAFA9A /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E0F98C2B53A354A23EF10222C33A216B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB8C17AF2E477A1B8F05411CF55259A /* Foundation.framework */; };
 		E113C4EBD076B223570A31327C783E8A /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7E1B3D386F7C20087D619CB79A2767 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1211115A6700D6163853E2964730D23 /* LTVC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ABF2C04F3E9B3177D2226E9ABC9BDA /* LTVC1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1F28EA9EEC2F7D6456EA8FDC934070E /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3419A1F829BFF8EE0102A906C21D1457 /* SPTCompiledExample.m */; };
 		E2058F4A0E7638E420DE96F8DC17AAA9 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = BA240749E3B867387FA59F07BFC0BA64 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5076821FB869B94C397BEBE2C8FB4C1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D90286CAB5F184873BBBE2882C2C8 /* AFURLResponseSerialization.m */; };
@@ -240,7 +241,6 @@
 		F5C14D79A4C065BF57872CA9242F6808 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4633A83A07A7F3DE26EA7B94E5F75724 /* MASConstraint.m */; };
 		F8A061FC6FDDC1B0B39D4A625E320110 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8590CD2F54CD83ECC843D151F9241F39 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 336BAC0529E3A38CEDB0274D07D38BF2 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD2F65E0F5C46BBE8D24047FDAFDAA9F /* LTVC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ABF2C04F3E9B3177D2226E9ABC9BDA /* LTVC1.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1485,8 +1485,8 @@
 			files = (
 				211BF75E068AA58C0F4A5A3FDE54BFE3 /* LTSDKDemo-umbrella.h in Headers */,
 				03D41FDA27F12FB9E5F1C0964F1D3381 /* LTSDKDemo.h in Headers */,
-				FD2F65E0F5C46BBE8D24047FDAFDAA9F /* LTVC1.h in Headers */,
-				5A71E439DFB358C857DFFDA1ED5B1EEA /* LTVC2.h in Headers */,
+				E1211115A6700D6163853E2964730D23 /* LTVC1.h in Headers */,
+				827BDF0E9E988070E37207AB22AFA99A /* LTVC2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
