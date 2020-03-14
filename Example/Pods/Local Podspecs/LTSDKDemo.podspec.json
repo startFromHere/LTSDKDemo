@@ -1,6 +1,6 @@
 {
   "name": "LTSDKDemo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "cocoapod 私有库测试",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/startFromHere/LTSDKDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/startFromHere/LTSDKDemo.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
