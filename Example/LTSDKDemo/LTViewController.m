@@ -7,7 +7,7 @@
 //
 
 #import "LTViewController.h"
-#import "LTVC1.h"
+#import <LTSDKDemo/LTSDKDemo.h>
 
 @interface LTViewController ()
 
